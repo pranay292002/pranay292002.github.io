@@ -1,0 +1,61 @@
+body{ background-image:url(https://cdn.videvo.net/videvo_files/video/free/2018-05/thumbnails/180503_02_PurpleGrid_small.jpg) ;
+      background-attachment: fixed;
+      background-size: cover;
+}
+p{ color: aliceblue;
+   border:double cadetblue;
+     text-align:center;
+}
+
+.list{ background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVE2IeRevi5TLcXpGqHUwmso9EzAWhuKrrLw&usqp=CAU);
+    
+          padding-left: 18%;
+}
+
+h1 { background-image: url(https://motionarray.imgix.net/preview-207219-5L2TUZcFSf-high_0000.jpg);
+     color:rgb(30, 255, 0);
+     text-align: center;
+     
+}
+h2{ color:purple ;
+
+
+}
+ul{  color: rgb(192, 29, 129);
+     padding-left: 18%;
+     font-size: 130%;
+}
+#link{ color:blue;
+      
+       
+}
+p1{ position: absolute;
+     text-align: left;
+     padding-left: 5%;
+     color: aliceblue;
+
+}
+
+
+p2{
+     position: absolute;
+     transform: translate(90%,-215%);
+     text-align: center;
+     padding-left: 5%;
+     color: aliceblue;
+
+}
+label{ color: aliceblue;
+       padding-left:3%;
+       padding-top:5%;
+}
+
+h3{ color: rgb(243, 239, 10);
+     text-align: center;
+}
+
+
+button{
+     position: absolute;
+     transform: translate(75%,75%);
+}
