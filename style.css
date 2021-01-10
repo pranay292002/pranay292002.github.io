@@ -40,8 +40,8 @@ p1{ position: absolute;
 p2{
      position: absolute;
      transform: translate(90%,-215%);
-     text-align: center;
-     padding-left: 5%;
+     text-align:left;
+     padding-left: 3%;
      color: aliceblue;
 
 }
