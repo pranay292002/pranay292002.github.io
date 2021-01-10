@@ -26,7 +26,7 @@ ul{  color: rgb(192, 29, 129);
      font-size: 130%;
 }
 #link{ color:red;
-      
+      Transform:translateX(50%)
        
 }
 p1{ position: absolute;
@@ -39,7 +39,7 @@ p1{ position: absolute;
 
 p2{
      position: absolute;
-     transform: translate(70%,-280%);
+     transform: translate(100%,-150%);
      text-align:left;
      padding-left: 3%;
      color: aliceblue;
