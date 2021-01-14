@@ -1,61 +1,185 @@
-body{ background-image:url(https://cdn.videvo.net/videvo_files/video/free/2018-05/thumbnails/180503_02_PurpleGrid_small.jpg) ;
+body{ position: absolute;
+       height: 98vh;
+       width: 100%;
+        margin: 0%;
+       padding: 0%;
+      background-image: url(https://wallpaperaccess.com/full/1533655.jpg);
       background-attachment: fixed;
       background-size: cover;
 }
-p{ color: aliceblue;
-   border:double cadetblue;
-     text-align:center;
+.navbar{ 
+       background-color: snow;
 }
 
-.list{ background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVE2IeRevi5TLcXpGqHUwmso9EzAWhuKrrLw&usqp=CAU);
-    
-          padding-left: 18%;
+#logo{ transform: translate(10%,30%);
+
+       height: 40px;
+       width: 90px;
 }
 
-h1 { background-image: url(https://motionarray.imgix.net/preview-207219-5L2TUZcFSf-high_0000.jpg);
-     color:rgb(30, 255, 0);
-     text-align: center;
-     
+.links{ text-align: end;
+      
+      transform: translate(-3% ,-110%);
 }
-h2{ color:purple ;
+#nav{
+       color: rgb(243, 149, 9);
+       padding-left: 30px;
+}
+#settingimg{
 
+       height: 15px;
+       width: 15px;
+}
+h1{     margin: 5px;
+       padding: 0%;
+          text-align: center;
+       color: red;
+}
+ /*this is the attributes*/
+#image{  transform:translate(263%,10%) ;
+        background: none;
+       height: 100px;
+       width: 200px;
+       border: double red;
+       
 
 }
-ul{  color: rgb(192, 29, 129);
-     padding-left: 18%;
-     font-size: 130%;
-}
-#link{ color:red;
-      Transform:translateX(50%)
+.js{    align-items: center;
+        text-align: center;
        
 }
-p1{ position: absolute;
-     text-align: left;
-     padding-left: 5%;
-     color: aliceblue;
+.content{
+       align-items: center;
+}
+
+#btn{ box-shadow: black;
+       
+        position: relative;
+       transform: translate(164%,30%);
+}
+#iron{  border: double purple;
+       border-width: 5px;
+        height: 400px;
+        width: auto;
+       transform: translate(50%,-30%);
+    
+}
+#cap{ border: double purple;
+       border-width: 5px;
+        height: 400px;
+       width: auto;
+       transform: translate(300%,-30%);
+
 
 }
 
-
-p2{
-     position: absolute;
-     transform: translate(100%,-150%);
-     text-align:left;
-     padding-left: 3%;
-     color: aliceblue;
+#spider{border: double purple;
+       border-width: 5px;
+       height: 200px;
+       width: auto;
+       transform: translate(-385%,50%);
+}
+#hulk{border: double purple;
+       border-width: 5px;
+       height: 200px;
+       width: auto;
+       transform: translate(-100%,50%);
+}
+#thor{border: double purple;
+       border-width: 5px;
+       height: 200px;
+       width: auto;
+       transform: translate(-545%,50%);
+}
+#widow{border: double purple;
+       border-width: 5px;
+       height: 200px;
+       width: auto;
+       transform: translate(-500%,50%);
+}
+#hawkeye{border: double purple;
+       border-width: 5px;
+       height: 200px;
+       width: 120px;
+       transform: translate(-137%,50%);
+}
+#doctor{border: double purple;
+       border-width: 5px;
+       height: 200px;
+       width: auto;
+       transform: translate(-900%,160%);
+}
+#vision{border: double purple;
+       border-width: 5px;
+       height: 200px;
+       width: 120px;
+       transform: translate(270%,-52%);
+}
+#wanda{border: double purple;
+       border-width: 5px;
+       height: 200px;
+       width: auto;
+       transform: translate(440%,-52%);
+} 
+#falcon{border: double purple;
+       border-width: 5px;
+       height: 200px;
+       width: auto;
+       transform: translate(540%,-52%);
+}
+#panther{border: double purple;
+       border-width: 5px;
+       height: 200px;
+       width: auto;
+       transform: translate(730%,-52%);
+}
+#ant{border: double purple;
+       border-width: 5px;
+       height: 200px;
+       width: auto;
+       transform: translate(430%,55%);
+}
+#winter{border: double purple;
+       border-width: 5px;
+        height: 200px;
+       width: auto;
+       transform: translate(320%,-52%);
 
 }
-label{ color: aliceblue;
-       padding-left:3%;
-       padding-top:5%;
+#vid{ border: double purple;
+       border-width: 5px;
+        height: 250px;
+        width: 500px;
+       transform: translate(76%,-230%);
 }
-
-h3{ color: rgb(243, 239, 10);
-     text-align: center;
+.baseline{ align-items: baseline;
+       background-color: black ;
+       opacity: 0.7;
+           
 }
-
-
-button{
-     position: absolute;
-     transform: translate(75%,75%);
+h3{      color: aliceblue;
+       text-align: center;
+}
+.social{ 
+       padding-left: 20px;}
+.follow{
+       padding-left: 455px;
+}
+#info{ opacity: 0.7;
+        padding-top: 10px;
+       padding-bottom: 10px;
+        margin-left: 160px;
+       margin-right: 180px;
+       text-align: center; 
+      transform: translateY(-300%);
+       font-size: 20px;
+       background-color: aliceblue;
+}
+#jq{
+       transform: translate(280%,-1100%);
+}
+.note{  background-color: aliceblue;
+       text-align:center ;
+       font-size: 20px;
+       color: red;
 }

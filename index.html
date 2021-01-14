@@ -1,65 +1,106 @@
 <!DOCTYPE html>
-<html>
-  <head>
-        <title>
-           My website
-        </title>
-        <link rel= "stylesheet" href="style.css">
-
-  </head>
-  <body>
-      <h1>
-         This is My First website.<hr>
-      </h1>
-      <p>
-         Hello my name is Pranay, <br>
-         I am learning web development on Udemy.
-
-      </p>
-       <a id="link" href="https://www.udemy.com/course/build-responsive-website-using-html5-css3-and-javascript-q/learn/lecture/23737126#overview">
-           visit this course on udemy
-       </a> <br>
-    <div class="list">
-       <h2>
-          what is in the course:
-       </h2>
-
-       <ul>
-         <li>html5 </li> <br>
-         <li>css3 </li><br>
-         <li>bootstrap </li><br>
-         <li>javascript </li><br>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pranay</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#jq").click(function(){
+         $("#info").css("background-color","red");
+                          
+      })
+     
         
-       </ul>
+      
+    })
+  </script>
+</head>
+<body>
+    <div class=navbar>
+        <img id="logo" src="https://cdn.mos.cms.futurecdn.net/gS5HJ7VtoHAmVhkXYbUZo4-1200-80.jpg">
+        <div class= links>
+           <a id="nav" href="index.html" >Home</a>
+           <a  id="nav" href="product.html" >Products</a>
+           <a  id="nav" href="contact.html" >Contact Us</a>
+           <a  id="nav" href="setting.html" > <img id="settingimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQET_Vj6Qu1I6DaPQ90m5ki8qV5-5GbjBbzA&usqp=CAU"></a>
+        </div>
+            <hr>
+        
+
     </div>
-       <hr> <br>
-       <iframe  width="560" height="315" src="https://www.youtube.com/embed/jVMoeUsZz1w" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       <p1>
-          Shreeman legend is my favourite streamer on youtube ,<br>
-          He is very entertaining and comedy.
-       </p1> <br><br><hr> <br>
-   
-       <div class="mapouter"><div class="gmap_canvas"><iframe width="560" height="315" id="gmap_canvas" src="https://maps.google.com/maps?q=maharashtra&t=k&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies2.org"></a></div><style>.mapouter{position:relative;text-align:right;height:315px;width:560px;}.gmap_canvas {overflow:hidden;background:none!important;height:315px;width:560px;}</style></div>
-        <p2>
-          This is my state 'maharshtra'<br>
-          located in india.
-          Maharashtra has more <br>business than any other one state of India.<br>There are some well-known cave monuments <br> like Ajanta and Ellora.<br> The first oil mill is in Mumbai. <br> Some of the crops grown in Maharashtra <br> are Bajra, Jowar, Rice, Wheat, etc.
-       </p2><br><br> <br><br><br><br><hr> 
-       <h3>This form is for practice</h3><br>
-       <form > 
-          <label for="fname"> First name</label>
-          <input type="text" for="fname" placeholder="your name"> <br> <br>
-          <label for="lname"> last name</label>
-          <input type="text" for="lname" placeholder="sir name"> <br> <br>
-          <label for="email"> email id</label>
-          <input type="email" for=" email" placeholder="someone@gmail.com"> <br> <br>
-          <label for="password"> password</label>
-          <input type="password" for="password"><br> <br>
-          <button id="submit">submit</button>
-               
-       </form>
+
+       <h1>
+            My Name is Pranay
+       </h1> <hr>
+       <!-- This is the image url -->
+     <div class=content>
+       
+        <div class=js >
+              <p>
+               The Avengers are a fictional team of superheroes appearing in limited series comic books published by Marvel Comics.<br> ... The Avengers is Lee and Kirby's renovation of a previous superhero team, All-Winners Squad,<br> who appeared in comic books series published by Marvel Comics' predecessor Timely Comics.
+              </p> <br> 
+         </div>  
+         <div class="scripty"><img  id="image" src="image.png" > <br>
+        <button id="btn" onclick="avenger()" type="button">click Here to Know about My Fvaourite avenger</button> <br>
+        </div> <div class= avengers>
+        <img id="iron" onclick="iron()" src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEW_pTmVlEyaT2Mf2tp_Vb0ZpEiCdi-nTggQ&usqp=CAU">
+         <img id="cap" onclick="cap()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaXUyCH6VAIsmbfRKmm8rzpynwrFR6l-MHOg&usqp=CAU">
+         <img id="spider" onclick="spider()"  src="https://i.pinimg.com/originals/35/48/61/354861151d80cb7b7ebd901cc1891aa9.jpg">
+         <img id="hulk"  onclick="hulk()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMf8Yfb72uVpWTRbgtCvqBCa6JUpj6U-M1Qw&usqp=CAU">
+         <img id="thor" onclick="thor()" src="https://i.pinimg.com/originals/8b/cc/3f/8bcc3fa2bc0143b4980406a614b47434.jpg">
+         <img id="widow" onclick="widow()" src="https://wallpapercave.com/wp/wp5079499.jpg">
+         <img id="hawkeye" onclick="hawkeye()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ7kBayZ-dkddOCvj4zSNyOxb7VtuMp5LhLg&usqp=CAU">
+         <img id="doctor" onclick="doctor()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJScIpl1RUFtP9eB_p4k5nVzIBc2jD6Rrf2A&usqp=CAU">
+         <img id="vision" onclick="vision()" src="https://qph.fs.quoracdn.net/main-qimg-8809087b54b756c6643507b404d1d43e">
+         <img id="wanda" onclick="wanda()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeJWR0X-UI4ZWRBCvle41Hj4MpMlDSZ-dasg&usqp=CAU">
+         <img id="falcon"onclick="falcon()" src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTei7zcHSr__bIn38n18hfWjkdPERnQiROQ2g&usqp=CAU">
+          <img id="panther"onclick="panther()" src="https://i.pinimg.com/originals/c3/16/93/c31693af849337c76ea3f58769a25995.jpg">
+          <img id="ant"onclick="ant()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR11uKO22gbyFgDz3VwLa4K69F6TMyFtK4hDw&usqp=CAU">
+          <img id="winter"onclick="winter()" src="https://i.pinimg.com/originals/d6/ee/16/d6ee16665bfb583b798e23dc9be608f8.jpg">
+        </div>
+          <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/lWkdzIvEgIY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+      <div class="block">
+        <p id="info">
+          Click On Images To Know More About Them
+        </p> 
+          <hr> 
+         
+      </div>
+       <button id="jq" >click here to change BG color</button>
+      <p class=note>Note:This site is for educational purpose only</p>
+      <div class="baseline">
+       <h3>
+         Follow Us on
+       </h3>
+           <div class="follow">
+          <a  class= social id= "facebook" href="https://www.facebook.com/pranay.p.96/">FACEBOOK</a>
+          <a  class= social id= "instagram" href="https://www.instagram.com/pranay_2902/">INSTAGRAM</a>
+          <a  class= social id= "twitter" href="https://twitter.com/pranay_2902/">TWITTER</a>
+           </div>
+          
 
 
-  </body>
+      </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
 </html>
