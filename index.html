@@ -80,7 +80,7 @@
             <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel">
                 <div id="cards" class="carousel-inner align-content-center">
                     <div id="cara" class="carousel-item active">
-                        <div class="card bg-dark" style="width: 15rem;">
+                        <div class="card bg-dark" style="width: 13rem;">
                             <img src="car2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title" style="color: aliceblue;">MERCEDES-BENZ </h5>
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div id="cara" class="carousel-item">
-                        <div class="card bg-dark" style="width: 15rem;">
+                        <div class="card bg-dark" style="width: 13rem;">
                             <img src="car3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title" style="color: aliceblue;">CITROEN DS</h5>
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <div id="cara" class="carousel-item">
-                        <div class="card bg-dark" style="width: 15rem;">
+                        <div class="card bg-dark" style="width: 13rem;">
                             <img src="car4.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title" style="color: aliceblue;">CHEVROLET BEL AIR</h5>
@@ -158,7 +158,7 @@
                 </div>
                 <div class="col">
                     <form>
-                        <h2 id="para2">Contact</h2>
+                        <h2 id="para4">Contact</h2>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="someone@gmail.com">
@@ -191,7 +191,24 @@
                             <label for="fillyourquery" class="form-label">Type Your Query</label>
                             <textarea type="text" class="form-control" id="fillyourquery" rows="3" placeholder="What is the Price of Mercedes-Benz ?"> </textarea>
                         </div>
-                        <button type="submit" class="btn bg-dark btn-outline-success">Submit</button>
+                        <button type="button" class="btn bg-dark btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+                        <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 3500;">
+                            <div class="modal-dialog">
+                              <div class="modal-content bg-dark">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Error</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h4>Sorry This Function isn't Available Yet</h4>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn bg-dark btn-outline-success" data-bs-dismiss="modal">Keep it up</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                     </form>
                 </div>
             </div>
