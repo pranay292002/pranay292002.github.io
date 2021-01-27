@@ -1,0 +1,38 @@
+@media (min-width:768px) and ( max-width:991.98px) {
+    #tag {
+        margin-top: 50%;
+        margin-left: -95%;
+    }
+    #cara {
+        margin-left: 30%;
+    }
+}
+
+@media (min-width: 576px) and (max-width:768px) {
+    #tag {
+        margin-top: 50%;
+        margin-left: -95%;
+    }
+    #cara {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 576px) {
+    #tag {
+        margin-top: 50%;
+        margin-left: -95%;
+    }
+    #cara {
+        margin-left: 20%;
+    }
+    .header {
+        padding-top: 30%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    #car6 {
+        width: 70px;
+    }
+}
