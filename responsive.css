@@ -24,7 +24,7 @@
         margin-left: -95%;
     }
     #cara {
-        margin-left: 17%;
+        margin-left: 20%;
     }
     .header {
         padding-top: 30%;
@@ -34,5 +34,10 @@
 @media (min-width: 768px) and (max-width: 1199.98px) {
     #car6 {
         width: 70px;
+    }
+}
+@media (max-width: 500px) {
+    #cara {
+        margin-left: 14%;
     }
 }
