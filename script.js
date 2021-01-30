@@ -25,11 +25,11 @@ $('.nav-item').click(function() {
 });
 $(".navbar li a").click(function() {
     $(".navbar li a").parent().removeClass("actives");
-    $(this).parent().addClass("actives")
+    $(this).parent().addClass("actives");
 })
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll >= 0 && scroll <= 500) {
+    if (scroll >= 0 && scroll <= 300) {
         $("#home1").parent().addClass("actives")
     } else {
         $("#home1").parent().removeClass("actives")
@@ -37,7 +37,7 @@ $(window).scroll(function() {
 })
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll >= 501 && scroll <= 1050) {
+    if (scroll >= 301 && scroll <= 620) {
         $("#collections1").parent().addClass("actives")
     } else {
         $("#collections1").parent().removeClass("actives")
@@ -45,7 +45,7 @@ $(window).scroll(function() {
 })
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll >= 1050 && scroll <= 1700) {
+    if (scroll >= 621 && scroll <= 1700) {
         $("#about1").parent().addClass("actives")
     } else {
         $("#about1").parent().removeClass("actives")
@@ -54,7 +54,7 @@ $(window).scroll(function() {
 })
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll >= 1700 && sroll <= 2350) {
+    if (scroll >= 1701 && scroll <= 2450) {
         $("#contact1").parent().addClass("actives")
     } else {
         $("#contact1").parent().removeClass("actives")
@@ -62,7 +62,7 @@ $(window).scroll(function() {
 })
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll >= 2350) {
+    if (scroll >= 2451 ) {
         $("#features1").parent().addClass("actives")
     } else {
         $("#features1").parent().removeClass("actives")
